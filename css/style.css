@@ -1,7 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(../imagens/background.jpg);
+}
+
+.titulo-descricao {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 50px;
+}
+
 .container {
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 50% 50%;
     grid-template-areas: "ac ff gow hzd mgs"
                         "mk re ss tlou zld";
+}
+
+.container img {
+    max-width: 200px;
+}
+
+.container {
+    clear: both;
+    margin-top: 20px;
+}
+img {
+    vertical-align: top
 }
